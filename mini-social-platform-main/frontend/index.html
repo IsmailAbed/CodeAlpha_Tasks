@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <button onclick="logout()">Logout</button>
+
+  <h2>Feed</h2>
+
+  <div class="card">
+    <textarea id="postContent" placeholder="What's on your mind?"></textarea><br><br>
+    <button onclick="createPost()">Post</button>
+  </div>
+
+  <div id="posts"></div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/feed.js"></script>
+</body>
+</html>

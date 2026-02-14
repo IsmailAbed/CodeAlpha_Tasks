@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <h2>Login</h2>
+
+  <input id="email" placeholder="Email"><br><br>
+  <input id="password" type="password" placeholder="Password"><br><br>
+
+  <button onclick="login()">Login</button>
+  <br><br>
+
+  <p>Don't have an account?</p>
+  <button onclick="goToRegister()">Register</button>
+</div>
+
+<script src="js/auth.js"></script>
+
+<script>
+  function goToRegister() {
+    window.location.href = "register.html";
+  }
+</script>
+
+</body>
+</html>
