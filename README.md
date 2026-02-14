@@ -30,7 +30,7 @@ A full-stack e-commerce application featuring:
 
 
 
-📁 Folder: `/ecommerce-store`
+📁 Folder: `/CodeAlpha_SimpleEcommerce`
 
 
 
@@ -60,7 +60,7 @@ A full-stack social networking application featuring:
 
 
 
-📁 Folder: `/mini-social-platform`
+📁 Folder: `/mini-social-platform-main`
 
 
 
